@@ -1,16 +1,20 @@
-# Project Name
+#Classifying fruits and vegtables and returing their health benefits
 
- Add short description of project here > 
-
-![add image descrition here](direct image link here)
+ DESCRIPTION:
+ The project i created trained the resnet-18 network to create a model that can classify different fruits and vegtables. Using the label, my project sends it to chatGPT through an api-key and returns the health benefits of the fruit or vegtable. Although the model was trained for 2 epochs and its accuracy is lacking. With more training time, the model would be very accurate and useful. It can allow people to find health benefits of fruits and vegtables they did not know the name of.
 
 ## The Algorithm
 
-Add an explanation of the algorithm and how it works. Make sure to include details about how the code works, what it depends on, and any other relevant info. Add images or other descriptions for your project here. 
+In the code, my project loads the image provided by the user and loads the model. Then using the model it classifys the image and gives it a label. Then sends a request to ChatGPT API for the health beneifits for the labeled food. Then returns the health benefits to the user.
 
 ## Running this project
 
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.
+1.First change the directory to the final_project
+2. import jetson_inference
+import jetson_utils
+import argparse
+import requests
+import json
+3. run the following code in the terminal python3 final.py Image_1.jpg
 
 [View a video explanation here](video link)
