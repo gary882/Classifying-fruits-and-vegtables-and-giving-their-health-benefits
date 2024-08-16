@@ -17,4 +17,4 @@ import requests
 import json
 3. run the following code in the terminal python3 final.py Image_1.jpg
 
-[View a video explanation here](video link)
+
