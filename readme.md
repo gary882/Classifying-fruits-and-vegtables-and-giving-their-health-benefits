@@ -17,4 +17,6 @@ import requests
 import json
 3. run the following code in the terminal python3 final.py Image_1.jpg
 
+video link to my voice over: https://youtu.be/nPqP9uvv7t4
+
 
